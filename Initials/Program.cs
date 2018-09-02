@@ -2,11 +2,13 @@
 
 namespace Initials
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
+
+        // TODO: Create a method that takes in a full name and return the initials in all capital letters.
     }
 }
